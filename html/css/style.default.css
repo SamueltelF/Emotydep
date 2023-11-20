@@ -14856,19 +14856,21 @@ STYLE SWITCHER FOR DEMO
   color: #495057;
 }
 
-/* Estilos para PCs e tablets */
+/* Estilos padrão para PCs e tablets */
 .botoo {
-  display: inline-block; /* Garante que o botão seja exibido como um bloco de linha */
+  display: inline-block;
   background-color: transparent;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  text-decoration: none;
 }
 
 /* Media query para dispositivos móveis */
 @media only screen and (max-width: 600px) {
   .botoo {
-    display: none; /* Esconde o botão em dispositivos móveis */
+    background-color: transparent; /* Altera a cor de fundo para dispositivos móveis */
+    font-size: 14px; /* Altera o tamanho da fonte para dispositivos móveis */
   }
 }
+
