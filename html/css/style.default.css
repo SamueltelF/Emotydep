@@ -14857,6 +14857,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 /* Estilos padrão para PCs e tablets */
+/* Estilos padrão para PCs e tablets */
 .botoo {
   display: inline-block;
   background-color: transparent;
@@ -14866,11 +14867,11 @@ STYLE SWITCHER FOR DEMO
   text-decoration: none;
 }
 
-/* Media query para dispositivos móveis */
-@media only screen and (max-width: 600px) {
+/* Media query para dispositivos móveis e PCs */
+@media only screen and (max-width: 800px) {
   .botoo {
-    background-color: transparent; /* Altera a cor de fundo para dispositivos móveis */
-    font-size: 14px; /* Altera o tamanho da fonte para dispositivos móveis */
+    display: none; /* Esconde o botão em dispositivos móveis e PCs */
   }
 }
+
 
